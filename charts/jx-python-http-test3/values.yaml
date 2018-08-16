@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 820843322051.dkr.ecr.us-west-2.amazonaws.com/bp8017/jx-python-http-test3
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: jx-python-http-test3
